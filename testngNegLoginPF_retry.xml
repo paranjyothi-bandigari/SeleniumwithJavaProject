@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.thetestingacadamy.Listners.RetryListener"/>
+    </listeners>
+
     <test verbose="2" preserve-order="true" name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject">
         <classes>
-            <class name="com.thetestingacadamy.test.TestVWOLogin">
+            <class name="com.thetestingacadamy.test.TestVWOLoginPF">
             </class>
 
     </classes>

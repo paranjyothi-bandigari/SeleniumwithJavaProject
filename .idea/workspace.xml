@@ -4,32 +4,155 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82798c0b-25fd-460c-b85e-bfc92750880c" name="Changes" comment="" />
+    <list default="true" id="82798c0b-25fd-460c-b85e-bfc92750880c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/base/commonToAllBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/DashboardPage_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/LoginPage_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/LoginPage_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/Listners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/Listners/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/base/commonToAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLoginPF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLoginPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngNegLogin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngNegLoginPF.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngNegLoginPF_retry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/utils/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/utils/PropertyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOloginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOloginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng001.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "paranjyothi-bandigari"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/paranjyothi-bandigari/SeleniumwithJavaProject.git",
+    "accountId": "da015dfe-dbe5-48f3-b9bb-47d7f67e0556"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2xQ57JrFEeEVlDOi4Vdm7a3XC04" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Sample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml.executor": "Run",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml.executor": "Run",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLogin.xml.executor": "Run",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF.xml.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF_retry.xml">
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumwithJavaProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng001.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF_retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumwithJavaProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngNegLoginPF_retry.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumwithJavaProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngNegLoginPF.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLogin.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumwithJavaProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngNegLogin.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumwithJavaProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF_retry.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLogin.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
