@@ -1,4 +1,4 @@
-package com.thetestingacadamy.test;
+package com.thetestingacadamy.test.VWOWebsite;
 
 import com.thetestingacadamy.base.commonToAllTest;
 import com.thetestingacadamy.driver.DriverManager;
@@ -9,8 +9,6 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
-
-import static com.thetestingacadamy.driver.DriverManager.driver;
 
 public class TestVWOLoginPOM extends commonToAllTest {
 

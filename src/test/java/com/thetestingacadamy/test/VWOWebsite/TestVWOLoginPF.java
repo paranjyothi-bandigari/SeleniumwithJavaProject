@@ -1,4 +1,4 @@
-package com.thetestingacadamy.test;
+package com.thetestingacadamy.test.VWOWebsite;
 
 import com.thetestingacadamy.Listners.RetryAnalyzer;
 import com.thetestingacadamy.base.commonToAllTest;
@@ -8,7 +8,6 @@ import com.thetestingacadamy.utils.PropertyReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
