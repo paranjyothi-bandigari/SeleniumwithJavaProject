@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject">
         <classes>
-            <class name="com.thetestingacadamy.test.VWOWebsite.VWOloginPage">
+            <class name="com.thetestingacadamy.test.HeroKUApp.Test001">
             </class>
 
     </classes>

@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82798c0b-25fd-460c-b85e-bfc92750880c" name="Changes" comment="Adding progress">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/Booking_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/BookingDotCom/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/BookingDotCom/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/Facebook/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngBooking.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngFBRegistration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngtest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/HeroKUApp/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngTest001.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/base/commonToAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/base/commonToAllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOWebsite/TestVWOLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLoginPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOWebsite/TestVWOLoginPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/TestVWOLoginPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOWebsite/TestVWOLoginPOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOloginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/VWOWebsite/VWOloginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng001.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngNegLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngNegLogin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngNegLoginPF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngNegLoginPF.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngNegLoginPF_retry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngNegLoginPF_retry.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +61,7 @@
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLogin.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF_retry.xml.executor": "Run",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngtest.xml.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -91,7 +77,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBRegistration.xml">
+  <component name="RunManager" selected="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml">
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumwithJavaProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng001.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngBooking.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumwithJavaProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngBooking.xml" />
@@ -112,19 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF_retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumwithJavaProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngNegLoginPF_retry.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumwithJavaProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngTest001.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -144,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBRegistration.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngtest.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngBooking.xml" />
-        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml" />
-        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF_retry.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747948679818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding progress">
+      <option name="closed" value="true" />
+      <created>1748144959263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748144959263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
