@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -17,9 +18,40 @@ public class test {
       driver.get("https://www.booking.com/");
       driver.manage().window().maximize();
       WebElement Flights=driver.findElement(By.xpath("//a[@id='flights']"));
-      Flights.click();
-     WebElement oneway=driver.findElement(By.xpath("//span[@class='InputRadio-module__field___VJGJp']"));
-    oneway.click();
+        Flights.click();
+        WebElement ToFlightSearchBox=driver.findElement(By.xpath("//span[text()='Where to?']"));
+        WebElement ToFlightTextBox=driver.findElement(By.xpath("//input[@placeholder='Airport or city']"));
+
+      try {
+          Thread.sleep(3000);
+      } catch (InterruptedException e) {
+          throw new RuntimeException(e);
+      }
+     ToFlightSearchBox.click();
+      try {
+          Thread.sleep(3000);
+      } catch (InterruptedException e) {
+          throw new RuntimeException(e);
+      }
+      Actions actions=new Actions(driver);
+        actions.moveToElement(ToFlightTextBox).sendKeys("India").build().perform();
+      try {
+          Thread.sleep(3000);
+      } catch (InterruptedException e) {
+          throw new RuntimeException(e);
+      }
+     List<WebElement> fromList=driver.findElements(By.xpath("//ul[@id='flights-searchbox_suggestions']/li"));
+     for(WebElement f:fromList){
+         if(f.getText().contains("Calgary")){
+             f.click();
+             break;
+         }
+     }
+
+
+
+     //WebElement oneway=driver.findElement(By.xpath("//span[@class='InputRadio-module__field___VJGJp']"));
+    //oneway.click();
 
 
       /*WebElement StayButton=driver.findElement(By.xpath("//a[@id='accommodations']"));

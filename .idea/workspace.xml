@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82798c0b-25fd-460c-b85e-bfc92750880c" name="Changes" comment="Adding progress">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/Facebook/FlipkartSearchMacMini.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngFlipkartMM.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/BookingDotCom/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/BookingDotCom/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/HeroKUApp/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/HeroKUApp/Test001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "paranjyothi-bandigari"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paranjyothi-bandigari&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/paranjyothi-bandigari/SeleniumwithJavaProject.git",
-    "accountId": "da015dfe-dbe5-48f3-b9bb-47d7f67e0556"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/paranjyothi-bandigari/SeleniumwithJavaProject.git&quot;,
+    &quot;accountId&quot;: &quot;da015dfe-dbe5-48f3-b9bb-47d7f67e0556&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2xQ57JrFEeEVlDOi4Vdm7a3XC04" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,11 +55,14 @@
   "keyToString": {
     "Application.Sample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.SeleniumwithJavaProject [clean].executor": "Run",
+    "Maven.SeleniumwithJavaProject [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngBooking.xml.executor": "Run",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBMM.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBRegistration.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLogin.xml.executor": "Run",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngNegLoginPF.xml.executor": "Run",
@@ -75,7 +83,24 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+    </option>
+  </component>
   <component name="RunManager" selected="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumwithJavaProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng001.xml" />
@@ -96,9 +121,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBRegistration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBMM.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumwithJavaProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngFBRegistration.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngFBMM.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -129,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml" />
-        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" />
-        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBRegistration.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngtest.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngBooking.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFBMM.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748189207503</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding progress">
+      <option name="closed" value="true" />
+      <created>1748211815727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748211815727</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

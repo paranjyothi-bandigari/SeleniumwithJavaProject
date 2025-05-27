@@ -3,11 +3,17 @@ package com.thetestingacadamy.test.HeroKUApp;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.openqa.selenium.JavascriptExecutor;
+import java.util.Set;
 
+import java.time.Duration;
 import java.util.List;
 
 public class Test001 {
@@ -150,16 +156,12 @@ public class Test001 {
 
     }
     //@Test
-    public void dropdown(){
+    public void dropdown() {
         WebElement dropdown = driver.findElement(By.xpath("//a[@href='/dropdown']"));
         dropdown.click();
-        WebElement dropdownclick= driver.findElement(By.xpath("//select[@id='dropdown']"));
-        dropdownclick.click();
-        WebElement option1fromdropdown= driver.findElement(By.xpath("//option[@value='1']"));
-        if(option1fromdropdown.isSelected()) {
-            System.out.println("Option 1 selected");
-        }else
-            option1fromdropdown.click();
+        WebElement dropdownclick = driver.findElement(By.xpath("//select[@id='dropdown']"));
+        Select select = new Select(dropdownclick);
+        select.selectByVisibleText("Option 1");
     }
     //@Test
     public void dynamic_content(){
@@ -268,6 +270,25 @@ public class Test001 {
         WebElement javascript_alerts = driver.findElement(By.xpath("//a[@href='/javascript_alerts']"));
         javascript_alerts.click();
 
+        WebElement element= driver.findElement(By.xpath("//button[@onclick='jsAlert()']"));
+        element.click();
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.alertIsPresent());
+        Alert alert=driver.switchTo().alert();
+        alert.accept();
+
+        WebElement elementConfirmation=  driver.findElement(By.xpath("//button[@onclick='jsConfirm()']"));
+        elementConfirmation.click();
+        wait.until(ExpectedConditions.alertIsPresent());
+        alert.dismiss();
+
+        WebElement elementInput= driver.findElement(By.xpath("//button[@onclick='jsPrompt()']"));
+        elementInput.click();
+        wait.until(ExpectedConditions.alertIsPresent());
+        alert.sendKeys("Paran");
+        alert.accept();
+
+
     }
     //@Test
     public void javascript_error(){
@@ -291,7 +312,18 @@ public class Test001 {
     public void windows(){
         WebElement windows = driver.findElement(By.xpath("//a[@href='/windows']"));
         windows.click();
-
+        String ParentWindow=driver.getWindowHandle();
+        System.out.println("Parant Window is " +ParentWindow);
+        driver.findElement(By.xpath("//a[@href='/windows/new']")).click();
+        Set<String> WindowHandle=driver.getWindowHandles();
+        System.out.println("Window Handles" +WindowHandle);
+        for (String handle: WindowHandle){
+            driver.switchTo().window(handle);
+            if(driver.getPageSource().contains("New Window")){
+                System.out.println("Test Case Passed!");
+            }
+            driver.switchTo().window(ParentWindow);
+        }
     }
     //@Test
     public void nested_frames(){
@@ -321,6 +353,30 @@ public class Test001 {
     public void shadowdom(){
         WebElement shadowdom = driver.findElement(By.xpath("//a[@href='/shadowdom']"));
         shadowdom.click();
+       // WebElement SD1=driver.findElement(By.xpath("//span[@slot='my-text']"));
+       // SD1.getText();
+       // System.out.println(SD1.getText());
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement inputboxPizza = (WebElement) js.executeScript("");
+
+    }
+  // @Test
+    public void test_js() {
+        driver.get("https://selectorshub.com/xpath-practice-page/");
+        driver.manage().window().maximize();
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement scrool_o_element=driver.findElement(By.xpath("//div[@id='userName']"));
+        js.executeScript("arguments[0].scrollIntoView()",scrool_o_element);
+        WebElement inputboxPizza = (WebElement) js.executeScript("return document.querySelector('div#userName').shadowRoot.querySelector('div#app2').shadowRoot.querySelector('#pizza');");
+        inputboxPizza.sendKeys("farmhouse");
+
 
     }
     //@Test
@@ -339,26 +395,76 @@ public class Test001 {
     public void tables(){
         WebElement tables = driver.findElement(By.xpath("//a[@href='/tables']"));
         tables.click();
+        WebElement table2=driver.findElement(By.xpath("//table[@id='table2']/tbody"));
+        List<WebElement> rows2=table2.findElements(By.tagName("tr"));
 
-    }
-    //@Test
-    public void status_codes(){
-        WebElement status_codes = driver.findElement(By.xpath("//a[@href='/status_codes']"));
-        status_codes.click();
+              for(int i=0;i<rows2.size();i++){
+                  List<WebElement> column2=rows2.get(i).findElements(By.tagName("td"));
+               for(WebElement c:column2) {
+                   System.out.println(c.getText());
+                  }
+                  }
+        WebElement table1=driver.findElement(By.xpath("//table[@id='table1']/tbody"));
+        List<WebElement> rows1=table1.findElements(By.tagName("tr"));
 
+        for(int i=0;i<rows1.size();i++){
+            List<WebElement> column1=rows1.get(i).findElements(By.tagName("td"));
+            for(WebElement c:column1) {
+                System.out.println(c.getText());
+            }
+        }
     }
     //@Test
     public void typos(){
-        WebElement typos = driver.findElement(By.xpath("//a[@href='/typos']"));
-        typos.click();
+        WebElement typoss = driver.findElement(By.xpath("//a[@href='/typos']"));
+        typoss.click();
 
     }
     //@Test
     public void tinymce(){
-        WebElement tinymce = driver.findElement(By.xpath("//a[@href='/tinymce']"));
-        tinymce.click();
+        WebElement tinymcex = driver.findElement(By.xpath("//a[@href='/tinymce']"));
+        tinymcex.click();
 
     }
+    //@Test
+    public void Flipkartsearch(){
+        driver.navigate().to("https://www.flipkart.com/");
+        driver.manage().window().maximize();
+        driver.findElement(By.name("q")).sendKeys("macmini");
+        List<WebElement> svgelelements=driver.findElements(By.xpath("//*[name()='svg']"));
+        svgelelements.get(0).click();
+
+        List<WebElement> macminilist=driver.findElements(By.xpath("//div[contains(@data-id,'CPU')]/div/a[2]"));
+        for(WebElement title:macminilist){
+            System.out.println(title.getText());
+        }
+
+
+    }
+    //@Test
+    public void MakemyTrip() {
+        driver.navigate().to("https://www.makemytrip.global/?cc=ca");
+        driver.manage().window().maximize();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.findElement(By.cssSelector("span[data-cy='closeModal']")).click();
+        WebElement fromFlights = driver.findElement(By.cssSelector("label[for='fromCity']"));
+        fromFlights.click();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        WebElement FromFlightSearchBox = driver.findElement(By.xpath("input[placeholder='From']"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(FromFlightSearchBox).sendKeys("Calgary").build().perform();
+
+
+    }
+
 
 
 }
