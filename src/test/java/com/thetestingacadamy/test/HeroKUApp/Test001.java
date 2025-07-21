@@ -149,12 +149,21 @@ public class Test001 {
         actions.dragAndDrop(from,to).build().perform();
 
     }
-    //@Test
+   //@Test
     public void disappearing_elements(){
         WebElement disappearing_elements = driver.findElement(By.xpath("//a[@href='/disappearing_elements']"));
         disappearing_elements.click();
+       WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+       WebElement gallery= driver.findElement(By.xpath("//a[@href='/gallery/']"));
+        if(!gallery.isDisplayed()){
+            driver.navigate().refresh();
+            wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+            gallery.click();
+        }else
+            gallery.click();
+        }
 
-    }
+
     //@Test
     public void dropdown() {
         WebElement dropdown = driver.findElement(By.xpath("//a[@href='/dropdown']"));
@@ -167,9 +176,23 @@ public class Test001 {
     public void dynamic_content(){
         WebElement dynamic_content = driver.findElement(By.xpath("//a[@href='/dynamic_content']"));
         dynamic_content.click();
+        WebElement clickhere=driver.findElement(By.xpath("//a[contains(text(),'click here')]"));
+        clickhere.click();
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement dynamictext= driver.findElement(By.xpath("//div[contains(text(),'Blanditiis error')]"));
+        if(!dynamictext.isDisplayed()){
+            clickhere.click();
+            wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+            dynamictext.click();
+        }else if(!dynamictext.isDisplayed()) {
+            clickhere.click();
+            wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+            dynamictext.click();
+        }else dynamictext.click();
 
-    }
-    //@Test
+
+}
+   //@Test
     public void dynamic_controls(){
         WebElement dynamic_controls = driver.findElement(By.xpath("//a[@href='/dynamic_controls']"));
         dynamic_controls.click();
@@ -441,7 +464,7 @@ public class Test001 {
 
 
     }
-    //@Test
+    @Test
     public void MakemyTrip() {
         driver.navigate().to("https://www.makemytrip.global/?cc=ca");
         driver.manage().window().maximize();

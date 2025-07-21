@@ -38,9 +38,6 @@ public class LoginPage_PF extends commonToAllBase{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
         return error_message.getText();
     }
-
-
 }

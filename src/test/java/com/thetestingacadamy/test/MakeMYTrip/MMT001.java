@@ -9,6 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -47,29 +48,17 @@ public class MMT001 {
 
         WebElement cross=driver.findElement(By.xpath("//span[@data-cy='closeModal']"));
         cross.click();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
        WebElement departureDate= driver.findElement(By.xpath("//p[@data-cy='departureDate']"));
        departureDate.click();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
        // WebElement july=driver.findElement(By.xpath("//div[@class='DayPicker-Month'][2]"));
        // WebElement getprice= july.findElement(By.xpath("//div[@class='dateInnerCell']/p[2]"));
         WebElement selectDate1=driver.findElement(By.xpath("//div[@aria-label='Sat Jun 14 2025']"));
         selectDate1.click();
         WebElement returnDate= driver.findElement(By.xpath("//p[@data-cy='returnDefaultText']"));
         returnDate.click();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         WebElement selectDate2=driver.findElement(By.xpath("//div[@aria-label='Wed Jul 16 2025']"));
         selectDate2.click();
         WebElement Search=driver.findElement(By.xpath("//a[contains(text(),'Search')]"));

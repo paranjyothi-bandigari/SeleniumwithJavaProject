@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import java.util.Arrays;
 
 import java.util.List;
 
@@ -22,7 +23,14 @@ public class FlipkartSearchMacMini {
         for(int i=0;i<minlist;i++){
             System.out.println("Header " +mmlist.get(i).getText()+ "Price " +mmlistprice.get(i).getText());
         }
-
+        Integer minmumber=Integer.parseInt(mmlistprice.get(0).getText().replaceAll("[^0-9]",""));
+        for(int i=0;i<minlist;i++){
+            int price=Integer.parseInt(mmlistprice.get(i).getText().replaceAll("[^0-9]",""));
+            if(price<minmumber){
+                minmumber=price;
+            }
+        }
+        System.out.println("Minimum price is "+minmumber);
 
 
     }
