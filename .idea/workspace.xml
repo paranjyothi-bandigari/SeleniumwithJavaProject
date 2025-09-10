@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82798c0b-25fd-460c-b85e-bfc92750880c" name="Changes" comment="Adding progress">
-      <change afterPath="$PROJECT_DIR$/MMTDates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/MakeMYTrip/MMTDATESelection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/DashboardPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/DashboardPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/LoginPage_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacadamy/pages/LoginPage_PF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/Facebook/FlipkartSearchMacMini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/Facebook/FlipkartSearchMacMini.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/HeroKUApp/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/HeroKUApp/Test001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/MakeMYTrip/MMT001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test/MakeMYTrip/MMT001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,20 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml">
+  <component name="RunManager" selected="Application.Sample">
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.Sample" />
+      <module name="SeleniumwithJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacadamy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,23 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumwithJavaProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngTest001.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngFlipkartMM.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng001.xml" />
         <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testngBooking.xml" />
-        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/SeleniumwithJavaProject/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749844603549</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding progress">
+      <option name="closed" value="true" />
+      <created>1753125560229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753125560229</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
